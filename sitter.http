@@ -1,0 +1,22 @@
+### sitter Registration
+POST http://localhost:4000/sitter-api/sitters
+Content-Type: application/json
+
+{
+    "sitterId" : "{{$timestamp}}",
+    "sittername" : "ram",
+    "age" : "19",
+    "location" : "some location",
+    "discription" : "something",
+    "pricePerDay" : "2000 Rs",
+    "comments" : [],
+    "available" : true,
+    "experience" : "some experience",
+    "rating" : [],
+    "acceptedPets" : ["dog","cat"],
+    "numberOfPetsAcceptedAtaATime" : 2,
+    "numberOfWalksPerDay" : 2
+}
+
+### Get sitters
+GET http://localhost:4000/sitter-api/sitters

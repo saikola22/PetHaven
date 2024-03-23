@@ -1,0 +1,48 @@
+.body2 {
+    /* background: linear-gradient(135deg,yellow,blue); */
+    background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.7)),url('../../../../assets/dog.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #0b0000;
+}
+
+.form-control {
+    border: 2px solid #0f0101;
+    border-radius: 10px;
+    transition: border-color 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #0f0101;
+}
+
+.form-control:focus {
+    border-color: #0f0000;
+    box-shadow: none;
+}
+
+.btn-primary {
+    /* background-color: skyblue; */
+    border-color: #100101;
+    color: #333333;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    border-color: #12d5ef;
+    color: #110101;
+}
